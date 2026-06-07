@@ -1,0 +1,50 @@
+body{
+  background: brown;
+}
+.container{
+  background: lime;
+  padding: 40px 60px;
+  border-radius: 12px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.nav-links a{
+  text-decoration: none;
+  color: black;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.hero img{
+  height: 200px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 50%;
+}
+.about{
+  padding: 80px10%;
+}
+.about-grids{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  gap: 20px;
+}
+
+.about img{
+  height: 200px;
+  max-width: 200px;
+  padding: 20px;
+  background: chocolate;
+  margin-top: 30px;
+}
